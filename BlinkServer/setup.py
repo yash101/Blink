@@ -9,7 +9,6 @@ setup(
     'console_scripts': 'blink-server = blink.blink:main'
   },
   install_requires = [
-    'scipy',
     'numpy',
     'imutils',
     'dlib',
