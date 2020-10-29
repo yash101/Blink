@@ -1,5 +1,6 @@
-from face import Face
+from blink.face import Face
 
 def main():
-    print('hello')
+    face = Face()
+    face.start()
 

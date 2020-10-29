@@ -9,9 +9,12 @@ setup(
     'console_scripts': 'blink-server = blink.blink:main'
   },
   install_requires = [
+    'appdirs',
     'numpy',
     'imutils',
     'dlib',
-    'opencv-python'
+    'opencv-python',
+    'requests',
+    'scipy'
   ]
 )
